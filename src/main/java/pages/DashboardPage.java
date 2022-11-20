@@ -11,6 +11,7 @@ public class DashboardPage extends TestBase {
 
 	public ToolbarWidget toolbarWidget = new ToolbarWidget();
 	public MenuWidget menuWidget = new MenuWidget();
+
 	// Initializing the Page Objects:
 	public DashboardPage() {
 		PageFactory.initElements(driver, this);

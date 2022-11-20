@@ -1,9 +1,9 @@
-Dependency
+Dependency:
 Java
 Maven
 JDK
 
-Libraries used
+Libraries used:
 Selenium
 TestNG
 

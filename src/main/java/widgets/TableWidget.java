@@ -1,7 +1,6 @@
 package widgets;
 
 import base.TestBase;
-import net.bytebuddy.implementation.bytecode.Throw;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,7 +9,6 @@ import org.testng.Assert;
 
 import java.util.List;
 import java.util.Objects;
-import java.util.concurrent.TimeUnit;
 
 public class TableWidget extends TestBase {
 
@@ -62,7 +60,7 @@ public class TableWidget extends TestBase {
 			List<WebElement> cells = element.findElements(By.tagName("td"));
 			WebElement cellId = cells.get(0);
 			if (Objects.equals(cellId.getText(), id))
-				throw new RuntimeException("find row");;
+				throw new RuntimeException("find row");
 		}
 	}
 
